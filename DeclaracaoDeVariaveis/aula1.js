@@ -1,3 +1,3 @@
-var nome = prompt("Qual seu nome?");
-var idade = parseInt(prompt("Qual sua idade?"));
-var curso = prompt("Qual seu curso?");
+nome = prompt("Qual seu nome?");
+idade = parseInt(prompt("Qual sua idade?"));
+curso = prompt("Qual seu curso?");
