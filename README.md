@@ -4,4 +4,4 @@
 http://guilhermelemematos.github.io/JavaScriptBasico/DeclaracaoDeVariaveis/aula1.html
 
 ##Funções:
-http://guilhermelemematos.github.io/JavaScriptBasico/funcoes/funcoes.html
+http://guilhermelemematos.github.io/JavaScriptBasico/Funcoes/funcoes.html
