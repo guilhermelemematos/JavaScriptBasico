@@ -1,12 +1,11 @@
 saldo = 1000
-function dadoascesso(){
-    numcartao = prompt("Digite o numero do seu cartão:")
-    senha= prompt("Digite sua senha:")
+
+function dadosacesso(){
+    numcartao = prompt("Digite o número do cartão: ")
+    senha = prompt("Digite a Senha: ")
 }
 
 function saque(valor){
     saldo = saldo - valor
     return saldo
 }
-
-
