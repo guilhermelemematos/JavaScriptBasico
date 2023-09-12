@@ -4,20 +4,24 @@ body{
 
 p{
     font-family: "Lucida Console", "Courier New", monospace;
-    color: rgb(80, 74, 66);
+    color: #000000;
+    text-align: center;
+    font-size: 50px;
 }
 
 input[type=text] {
     border: none;
     border-bottom: 2px solid #D2B48C ;
-    background-color: rgb(219, 205, 185);
-  }
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+}
 
   input[type=submit] {
         background-color: rgb(255, 255, 255);
-        color: rgb(219, 205, 185);
-        border: 2px solid rgb(219, 205, 185);
+        color: #000000;
+        border: 2px solid #D2B48C; 
         border-radius: 2px;
         font-family: "Lucida Console", "Courier New", monospace;
+        width: 100px;
     
       }

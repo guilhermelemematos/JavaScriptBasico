@@ -1,0 +1,25 @@
+.container{
+    
+    
+    margin: 0 auto;
+    width: 500px;
+    display: table;
+    text-align: center;
+    background-color: #555558;
+    border-radius: 12px;
+    padding: 25px;
+
+}
+
+
+body{
+    font-family: monospace;
+    background: rgb(189, 54, 54);
+    color: white;
+    font-size: 40px;
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+}

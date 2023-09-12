@@ -1,0 +1,61 @@
+input[type=submit] {
+    background-color: #2c59ad;
+    border-radius:  4px;
+    border: none;
+    color: white;
+    padding: 15px;
+    font-family: monospace;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 130px;
+}
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+   
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+
+}
+
+
+.container{
+    padding-top: 50px;
+    margin: 0 auto;
+    width: auto;
+    display: table;
+    text-align: center;
+
+}
+
+form{
+    background-color:rgb(171, 230, 161);
+    border-radius: 8px;
+}
+
+body{
+    font-family: monospace;
+    background: rgb(135, 184, 126);
+}
+
+h1{
+   color: white;
+}
+
+p{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+   
+}
