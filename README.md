@@ -11,3 +11,6 @@ http://guilhermelemematos.github.io/JavaScriptBasico/exemplo/index.html
 
 ##Aula4:
 http://guilhermelemematos.github.io/JavaScriptBasico/IMC/imc.html
+
+##Aula5:
+http://guilhermelemematos.github.io/JavaScriptBasico/tabuada/imc.html
