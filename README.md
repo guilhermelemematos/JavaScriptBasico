@@ -17,3 +17,6 @@ http://guilhermelemematos.github.io/JavaScriptBasico/tabuada/index.html
 
 ##Aula6:
 http://guilhermelemematos.github.io/JavaScriptBasico/Objetos/index.html
+
+##Aula7:
+http://guilhermelemematos.github.io/JavaScriptBasico/Objetos2/index.html
