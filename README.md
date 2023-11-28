@@ -23,3 +23,6 @@ http://guilhermelemematos.github.io/JavaScriptBasico/Objetos2/index.html
 
 ##Aula8:
 http://guilhermelemematos.github.io/JavaScriptBasico/Script_img/index.html
+
+##Aula9:
+http://guilhermelemematos.github.io/JavaScriptBasico/validacaoRegeX/index.html
