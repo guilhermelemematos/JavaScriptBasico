@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+        
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="index.html">Troca de Imagens</a></li>
+                <li><a href="page2.html">RegeX</a></li>
+                <li><a href="page3.html">Formulário</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Sobre RegeX</h2>
+    <div class="container1">
+        <h3 class="accordion-header">
+            Para que serve o RegeX?
+        </h3>
+        <p>
+            provê uma forma concisa e flexível de identificar cadeias de caracteres de interesse, como caracteres particulares, palavras ou padrões de caracteres. Expressões regulares são escritas numa linguagem formal que pode ser interpretada por um processador de expressão regular, um programa que serve um gerador de analisador sintático ou examina o texto e identifica as partes que casam com a especificação dada.
+
+            O termo deriva do trabalho do matemático norte-americano Stephen Cole Kleene, que desenvolveu as expressões regulares como uma notação ao que ele chamava de álgebra de conjuntos regulares. Seu trabalho serviu de base para os primeiros algoritmos computacionais de busca, e depois para algumas das mais antigas ferramentas de tratamento de texto da plataforma Unix.
+            </p>
+            </div>
+    </div>
+    <div class="container1">
+            <h3 class="accordion-header">
+                    Exemplos de RegeX
+            </h3>
+                    <p>
+                        <strong>busca pela palavra “Shift” no meio do texto:</strong>
+                        Use a expressão regular <code>const regex = /shift/g</code> para encontrar a palavra. <br>
+        
+                        <strong>Extrair Números de uma String:</strong>
+                        Utilize a expressão regular <code>\d+</code> para extrair números de uma string, por exemplo, de "A123B456C789". <br>
+        
+                        <strong>Substituir Palavras em uma String:</strong>
+                        Substitua a palavra "mundo" por "amigo" em uma string, como em "Olá, mundo!", usando a expressão regular <code>\bmundo\b</code>. <br>
+        
+                        Esses exemplos mostram como as expressões regulares podem ser aplicadas de forma prática em C# para realizar validações e manipulações específicas em strings.
+                    </p>
+    </div>
+    <div class="container1">
+            <h3 class="accordion-header">
+                    Exemplo 1
+            </h3>
+                <p>
+                    <strong> validar um código postal brasileiro:</strong>Uma expressão regular simples para validar um código postal brasileiro. O formato de um código postal no Brasil é composto por cinco dígitos, seguidos por um hífen e outros três dígitos. Aqui está um exemplo de como você poderia construir uma expressão regular para validar isso:
+                    <code>^\d{5}-\d{3}$</code>
+                </p>
+    </div>
+
+    <div class="container1">
+            <h3 class="accordion-header">
+                    Exemplo 2
+            </h3>
+                <p>
+                    <strong>validar senhas:</strong>Vamos criar outra expressão regular simples. Suponha que você queira validar senhas que atendam aos seguintes critérios: <br>
+
+                    Pelo menos 8 caracteres de comprimento. <br>
+                    Deve conter pelo menos uma letra maiúscula. <br>
+                    Deve conter pelo menos uma letra minúscula. <br>
+                    Deve conter pelo menos um número. <br>
+                    Aqui está uma expressão regular que atende a esses critérios: <br>
+                    <code>^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$</code>
+                </p>
+        </div>
+
+        <script src="js/script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>     
+</body>
+</html>
